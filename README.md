@@ -3,12 +3,26 @@ This repository provides examples of fine-grained performance prediction for dif
 
 
 ## Scripts
-### Fine-grained Performance Prediction###
+### Fine-grained Performance Prediction
 
+Compare performances of performance prediction of gradient-boosting models and tensor regression models with cross validation:
 ```python
+performance_prediction.ipynb
 
 compare_models(data_dataframe, data_tensor, missing_values, tensor_mapping, num_folds)
 
 ```
 
-### Reliability Analysis for Performance Prediction###
+### Reliability Analysis for Performance Prediction
+
+Perform calibration analysis on performance prediction models through bootstrapping and reconstructing synthetic datasets: 
+```python
+For boosting models: 
+calibration_boosting_models.ipynb
+
+For tensor regression models:
+calibration_tensor_models.ipynb
+
+bootstrap_reconstruct(dataset, tensor_mapping, num_iter=100, task='tsfmt', model='pca')
+
+```
