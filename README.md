@@ -17,10 +17,10 @@ compare_models(data_dataframe, data_tensor, missing_values, tensor_mapping, num_
 
 Perform calibration analysis on performance prediction models through bootstrapping and reconstructing synthetic datasets: 
 ```python
-For boosting models: 
+boosting models: 
 calibration_boosting_models.ipynb
 
-For tensor regression models:
+tensor regression models:
 calibration_tensor_models.ipynb
 
 bootstrap_reconstruct(dataset, tensor_mapping, num_iter=100, task='tsfmt', model='pca')
