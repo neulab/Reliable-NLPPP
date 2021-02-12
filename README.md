@@ -1,4 +1,4 @@
-# Towards More Fine-grained and Reliable NLP Performance Prediction (EACL 2021)
+# Towards More Fine-grained and Reliable NLP Performance Prediction ([EACL 2021](https://arxiv.org/pdf/2102.05486v1.pdf))
 Authors: [Zihuiwen Ye](xx), [Pengfei Liu](http://pfliu.com/), [Jinlan Fu](https://scholar.google.com/citations?user=D4vtw8QAAAAJ&hl=zh-CN), [Graham Neubig](http://www.phontron.com/)
 
 This repository provides examples of fine-grained performance prediction for different NLP tasks (machine translation, Part-of-Speech, Named Entity Recognition, and Chinese Word segmentation). We also provide the code we used to perform reliability analysis for performance prediction methods through confidence intervals and calibration.
